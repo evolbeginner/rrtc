@@ -5,9 +5,6 @@ One of the main challenges in molecular dating is the lack of maximum calibratio
 
 This tool named "rrtc" (relaxed RTC) or "prtc" (probability-based RTC) weighted RTCs by their probability inferred by ancestral state reconstruction (ASR) in a **rejection sampling** framework. For example, the last common ancestor (LCA) of symbiont clade 1 may have a probability of 0.7 to be associated with bats, 0.2 with primates, and 0.1 being free-living, as inferred by (ASR). Hence, for any posterior samples of the times inferred by a MCMC molecular dating program, the tool considers the different probabilities of the ancestral hosts (states) and discard the posterior time samples accordingly.
 
-![image](https://github.com/evolbeginner/rrtc/assets/8715751/15e86c00-9f24-4bde-bed3-4b2c8ca8fe13)
-![image](https://github.com/evolbeginner/rrtc/assets/8715751/d46b0620-2bf7-48fd-a5f0-e2c5ba2cf1e6)
-
 # Installation
 Make sure RUBY is installed. Ensure the following RUBY packages have been installed. Otherwise, please use "gem install package_name" to install.
 * bio-nwk
@@ -54,4 +51,6 @@ The first wor indicates the names of the internal symbiont node which in the abo
 
 # How to cite
 
-
+# More details about the model
+![image](https://github.com/evolbeginner/rrtc/assets/8715751/70e2cfbd-27df-4f0a-aaf4-219fc88d5cbe)
+![image](https://github.com/evolbeginner/rrtc/assets/8715751/d46b0620-2bf7-48fd-a5f0-e2c5ba2cf1e6)
