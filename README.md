@@ -1,7 +1,12 @@
 # rrtc
 A script to do probability-based relaxed time constraint **(pRTC)**-based dating.
 
-One of the main challenges in molecular dating is the lack of maximum calibrations. To overcome this difficulty, the concept of relative time constrain (RTC) was proposed by using information beyond fossils to provide additional time constraints.
+One of the main challenges in molecular dating is the lack of maximum calibrations. To overcome this difficulty, the concept of relative time constrain (RTC) was proposed by using information beyond fossils to provide additional time constraints [1,2] of the **divergence order**, e.g., by forcing the age of a specific node younger than another. This is commonly based on horizontal gene transfer (HGT) that the receipient should originate no earlier than the donor. However, up to now, all approaches that implement RTC treat RTCs as "hard" constraints. This ignores the uncertainty in inference of the divergence order.
+
+This tool named "rrtc" (relaxed RTC) or "prtc" (probability-based RTC) weighted RTCs by their probability inferred by ancestral state reconstruction (ASR) in a **rejection sampling** framework. For example, the last common ancestor (LCA) of symbiont clade 1 may have a probability of 0.7 to be associated with bats, 0.2 with primates, and 0.1 being free-living, as inferred by (ASR). Hence, for any posterior samples of the times inferred by a MCMC molecular dating program, the tool considers the different probabilities of the ancestral hosts (states) and discard the posterior time samples accordingly.
+
+![image](https://github.com/evolbeginner/rrtc/assets/8715751/15e86c00-9f24-4bde-bed3-4b2c8ca8fe13)
+![image](https://github.com/evolbeginner/rrtc/assets/8715751/d46b0620-2bf7-48fd-a5f0-e2c5ba2cf1e6)
 
 # Installation
 Make sure RUBY is installed. Ensure the following RUBY packages have been installed. Otherwise, please use "gem install package_name" to install.
