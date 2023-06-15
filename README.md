@@ -1,7 +1,7 @@
 # rrtc
-A script to do probability-based relaxed time constraint (RTC)-based dating.
+A script to do probability-based relaxed time constraint **(pRTC)**-based dating.
 
-
+One of the main challenges in molecular dating is the lack of maximum calibrations. To overcome this difficulty, the concept of relative time constrain (RTC) was proposed by using information beyond fossils to provide additional time constraints.
 
 # Installation
 Make sure RUBY is installed. Ensure the following RUBY packages have been installed. Otherwise, please use "gem install package_name" to install.
@@ -9,8 +9,6 @@ Make sure RUBY is installed. Ensure the following RUBY packages have been instal
 * colorize
 * parallel
 * csv
-
-
 
 # Usage
 `ruby ~/project/Rhizobiales/scripts/dating/rrtc/do_rrtc.rb --mcmctxt mcmctree/mcmc.txt -i mcmctree/out --rrtc rrtc_folder`
@@ -43,4 +41,12 @@ root	euk1,euk3	0.0009
 `
 
 The first wor indicates the names of the internal symbiont node which in the above example are sym1&sym2, and sym2&sym3. The remaining rows specify the probabilities that the two symbiont nodes are younger than each of the combinations of the host nodes or being free-living.
+
+# References
+1. Davín, A.A., Tannier, E., Williams, T.A. et al. Gene transfers can date the tree of life. Nat Ecol Evol 2, 904–909 (2018). https://doi.org/10.1038/s41559-018-0525-3
+2. Magnabosco C, Moore KR, Wolfe JM, Fournier GP. Dating phototrophic microbial lineages with reticulate gene histories. Geobiology. 2018 Mar;16(2):179-89.
+
+
+# How to cite
+
 
