@@ -25,6 +25,7 @@ For analysis based on the marginal probability of ancestral states:
 
 `
 symbiont1,symbiont2 euk1,euk2:0.0037	euk1,euk3:0.9654
+
 symbiont1,symbiont3 euk1,euk2:0.9648	euk1,euk3:0.0350
 `
 
@@ -34,11 +35,17 @@ For join probability of ancestral states:
 
 `
 sym1,sym2 sym1,sym3
+
 euk1,euk2 euk1,euk2 0.0037
+
 euk1,euk2 euk1,euk3	0.9311
+
 euk1,euk3 euk1,euk2 0.0341
+
 euk1,euk3 root	0.0002
+
 root	euk1,euk2	0.0300
+
 root	euk1,euk3	0.0009
 `
 
