@@ -52,5 +52,3 @@ The first wor indicates the names of the internal symbiont node which in the abo
 
 # How to cite
 
-# More details about the model
-![image](https://github.com/evolbeginner/rrtc/assets/8715751/b2e1cefa-638a-47b6-9fc8-9fcf30f07f5e)
