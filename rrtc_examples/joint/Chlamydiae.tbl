@@ -1,0 +1,7 @@
+Candidatus_Rhabdochlamydia_sp_W815-GCA_018642185.1,Parachlamydia_acanthamoebae	Parachlamydia_acanthamoebae,Candidatus_Clavichlamydia_salmonicola-GCA_015356765.1
+Salpingoeca_rosetta,Homo_sapiens	Salpingoeca_rosetta,Homo_sapiens	0.0046
+Salpingoeca_rosetta,Homo_sapiens	Arabidopsis_thaliana,Homo_sapiens	0.0541
+Arabidopsis_thaliana,Homo_sapiens	Salpingoeca_rosetta,Homo_sapiens	0.0028
+Arabidopsis_thaliana,Homo_sapiens	Arabidopsis_thaliana,Homo_sapiens	0.9371
+Arabidopsis_thaliana,Homo_sapiens	root	0.0001
+root	Arabidopsis_thaliana,Homo_sapiens	0.0013

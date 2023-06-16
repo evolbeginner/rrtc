@@ -1,0 +1,12 @@
+Mycoplasma_penetrans_HF-2-GCA_000011225.1,Catharanthus_roseus_aster_yellows_phytoplasma-GCA_004214875.1	Mycoplasma_penetrans_HF-2-GCA_000011225.1,Mycoplasma_gypis-GCA_016924775.1	Catharanthus_roseus_aster_yellows_phytoplasma-GCA_004214875.1,Texas_Phoenix_palm_phytoplasma-GCA_005774685.2
+Salpingoeca_rosetta,Homo_sapiens	Salpingoeca_rosetta,Homo_sapiens	Daphnia_pulex,Drosophila_melanogaster	0.5802
+Salpingoeca_rosetta,Homo_sapiens	Salpingoeca_rosetta,Homo_sapiens	root	0.0024
+Salpingoeca_rosetta,Homo_sapiens	Daphnia_pulex,Drosophila_melanogaster	Daphnia_pulex,Drosophila_melanogaster	0.0001
+Salpingoeca_rosetta,Homo_sapiens	root	Daphnia_pulex,Drosophila_melanogaster	0.0001
+Daphnia_pulex,Drosophila_melanogaster	Salpingoeca_rosetta,Homo_sapiens	Daphnia_pulex,Drosophila_melanogaster	0.0010
+root	Salpingoeca_rosetta,Homo_sapiens	Daphnia_pulex,Drosophila_melanogaster	0.3751
+root	Salpingoeca_rosetta,Homo_sapiens	root	0.0006
+root	Daphnia_pulex,Drosophila_melanogaster	Daphnia_pulex,Drosophila_melanogaster	0.0001
+root	root	Salpingoeca_rosetta,Homo_sapiens	0.0001
+root	root	Daphnia_pulex,Drosophila_melanogaster	0.0402
+root	root	root	0.0001

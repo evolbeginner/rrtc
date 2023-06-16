@@ -1,0 +1,7 @@
+Rickettsiales_bacterium-GCA_016780625.1,Wolbachia_endosymbiont_of_Cylisticus_convexus-GCA_003344345.1	Wolbachia_endosymbiont_of_Cylisticus_convexus-GCA_003344345.1,Neorickettsia_sp_179522-GCA_001593535.1
+Salpingoeca_rosetta,Homo_sapiens	Salpingoeca_rosetta,Homo_sapiens	0.0037
+Arabidopsis_thaliana,Homo_sapiens	Salpingoeca_rosetta,Homo_sapiens	0.9311
+Arabidopsis_thaliana,Homo_sapiens	Arabidopsis_thaliana,Homo_sapiens	0.0341
+Arabidopsis_thaliana,Homo_sapiens	root	0.0002
+root	Salpingoeca_rosetta,Homo_sapiens	0.0300
+root	Arabidopsis_thaliana,Homo_sapiens	0.0009
