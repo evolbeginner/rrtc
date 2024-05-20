@@ -61,4 +61,5 @@ As another example, for the file `rrtc_examples/marginal/Buchnera.tbl`, `Daphnia
 
 
 # How to cite
+Dating the bacterial tree of life based on ancient symbiosis. Sishuo Wang, Haiwei Luo. bioRxiv 2023.06.18.545440; doi: https://doi.org/10.1101/2023.06.18.545440
 
