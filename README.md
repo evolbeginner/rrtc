@@ -25,11 +25,13 @@ For analysis based on the marginal probability of ancestral states:
 
 
 ```
-symbiont1,symbiont2 euk1,euk2:0.0037 euk1,euk3:0.9654
-symbiont1,symbiont3 euk1,euk2:0.9648	euk1,euk3:0.0350
+sym1,sym2 euk1,euk2:0.0037 euk1,euk3:0.9654
+sym1,sym3 euk1,euk2:0.9648	euk1,euk3:0.0350
 ```
 
 The above example indicates that the LCA of sym1 and sym2 is no older than those of eukl & euk2, and euk1 & euk3 (hosts) with a probability of 0.0037 and 0.9654 respectively. You may note that the probabilities in the row do not add up to 1.0, which is because the rest corresponds to the probability of being free-living. You can consider being free-living means the age of the symbiont node should be younder than only the "root" of the tree.
+
+Importantly, note that the ancestral nodes of the symbiont or host have to be defined in the above manner, i.e., to use two tips to indicate their LCA. In this way, `sym1,sym2` and `euk1,euk2` define ancestral nodes of the symbionts and the hosts, repsecitvely. As an example, in the following graph, if you would like to take `euk1` as human, and `euk2` as monkey, then `human,monkey` corresponds to the crown group primates. To define the crown group of primates, you can alternatively use "gorrila,monkey".
 
 For join probability of ancestral states:
 
