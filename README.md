@@ -48,7 +48,7 @@ The first wor indicates the names of the internal symbiont node which in the abo
 # Notes
 Importantly, note that the ancestral nodes of the symbiont or host have to be defined in the above manner, i.e., to use two tips to indicate their LCA. In this way, `sym1,sym2` and `euk1,euk2` define ancestral nodes of the symbionts and the hosts, repsecitvely. As an example, in the following graph, if you would like to take `euk1` as human, and `euk2` as monkey, then `human,monkey` corresponds to the crown group primates. To define the crown group of primates, you can alternatively use "gorrila,monkey".
 
-<img src="img/rrtc_github.eps">
+<img src="img/rrtc_github.png">
 
 All icons of animals are obtained from PhyloPic.
 
