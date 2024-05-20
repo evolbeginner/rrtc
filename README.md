@@ -46,13 +46,13 @@ root	euk1,euk3	0.0009
 The first wor indicates the names of the internal symbiont node which in the above example are sym1&sym2, and sym2&sym3. The remaining rows specify the probabilities that the two symbiont nodes are younger than each of the combinations of the host nodes or being free-living.
 
 # Notes
-Importantly, note that the ancestral nodes of the symbiont or host have to be defined in the above manner, i.e., to use two tips to indicate their LCA. In this way, `sym1,sym2` and `euk1,euk2` define ancestral nodes of the symbionts and the hosts, repsecitvely. As an example, in the following graph, if you would like to indicate the crown group of primates, then you could take `euk1` as `Human`, and `euk2` as `Platyrrhini`. Alternatively, to indicate the crown group of primates, you can also use "Gorilla,Platyrrhini", or `Gibbon,Platyrrhini`, but you can NOT simply use "Primates" in your control file (see `rrtc_examples/marginal/` for example).
-
-As another example, for the file `rrtc_examples/marginal/Buchnera.tbl`, `Daphnia_pulex,Drosophila_melanogaster` indicates the total group arthropods (or crown group paranthropods) but you cannot directly use "paraanthropods" in the file `rrtc_examples/marginal/Buchnera.tbl`.
+Importantly, note that the ancestral nodes of the symbiont or host have to be defined in the above manner, i.e., to use **any two tips to indicate their LCA**. In this way, `sym1,sym2` and `euk1,euk2` define ancestral nodes of the symbionts and the hosts, repsecitvely. As an example, in the following graph, if you would like to **indicate the crown group of primates, then you could take `euk1` as `Human`, and `euk2` as `Platyrrhini`**. Alternatively, to indicate the crown group of primates, you can also use `Gorilla,Platyrrhini`, or `Gibbon,Platyrrhini`, **but you can NOT simply use "Primates"** in your control file (see `rrtc_examples/marginal/` for example).
 
 <img src="img/rrtc_github.png">
 
-All icons of animals are obtained from PhyloPic.
+All icons of animals are obtained from [PhyloPic](https://www.phylopic.org/).
+
+As another example, for the file `rrtc_examples/marginal/Buchnera.tbl`, `Daphnia_pulex,Drosophila_melanogaster` indicates the total group arthropods (or crown group paranthropods) but you cannot directly use "paraanthropods" in the file `rrtc_examples/marginal/Buchnera.tbl`.
 
 # References
 1. Davín, A.A., Tannier, E., Williams, T.A. et al. Gene transfers can date the tree of life. Nat Ecol Evol 2, 904–909 (2018). https://doi.org/10.1038/s41559-018-0525-3
