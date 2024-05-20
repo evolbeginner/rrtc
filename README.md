@@ -53,7 +53,7 @@ The first wor indicates the names of the internal symbiont node which in the abo
 
 All icons of animals are obtained from [PhyloPic](https://www.phylopic.org/).
 
-As another example, for the file `rrtc_examples/marginal/Buchnera.tbl`, `Daphnia_pulex,Drosophila_melanogaster` indicates the total group arthropods (or crown group paranthropods) but you cannot directly use "paraanthropods" in the file `rrtc_examples/marginal/Buchnera.tbl`.
+As another example, for the file `rrtc_examples/marginal/Buchnera.tbl`, `Daphnia_pulex,Drosophila_melanogaster` indicates the total group arthropods (or crown group panarthropods) but you cannot directly use "panarthropods" in the file `rrtc_examples/marginal/Buchnera.tbl`.
 
 # References
 1. Davín, A.A., Tannier, E., Williams, T.A. et al. Gene transfers can date the tree of life. Nat Ecol Evol 2, 904–909 (2018). https://doi.org/10.1038/s41559-018-0525-3
